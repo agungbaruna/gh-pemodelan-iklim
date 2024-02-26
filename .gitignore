@@ -1,6 +1,8 @@
 /.quarto/
 _site/
+renv/
+.Rprofile
 *.key
 *speaker.html
 .Rproj.user
-.Rproj
+*.Rproj

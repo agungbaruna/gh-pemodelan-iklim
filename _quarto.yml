@@ -72,7 +72,6 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-    highlight-style: mokokai
 
 bibliography: references.bib
 crossref:
