@@ -2,3 +2,5 @@
 _site/
 *.key
 *speaker.html
+.Rproj.user
+.Rproj
