@@ -6,3 +6,4 @@ renv/
 *speaker.html
 .Rproj.user
 *.Rproj
+*.Rhistory
