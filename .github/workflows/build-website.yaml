@@ -45,7 +45,7 @@ jobs:
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
-        uses: agungbaruna/github-pages-deploy-action@4.1.7
+        uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: _site # The folder the action should deploy.
