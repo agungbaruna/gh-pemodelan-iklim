@@ -1,0 +1,86 @@
+project:
+  type: website
+
+author: "Akhmad Faqih, Perdinan, Agung Baruna Setiawan Noor" 
+
+freeze: auto
+
+website: 
+  page-navigation: true
+  title: "Modul Pemodelan Iklim"
+  site-url: "https://agungbaruna.github.io/gh-pemodelan-iklim"
+  repo-url: "https://github.com/agungbaruna/modul-pemodelan-iklim"
+  repo-actions: [edit, issue]
+  sidebar:
+      background: "#D9E3E4"
+      # logo: "images/logo.png"
+      pinned: true
+      align: center
+      tools:
+        - icon: github
+          href: https://github.com/agungbaruna
+          text: "GitHub"
+        - icon: twitter
+          href: https://x.com/agungbaruna
+          text: "Twitter"
+        - icon: instagram
+          href: https://instagram.com/agungbaruna
+          text: "Instagram"
+
+      style: "docked"
+      search: true
+      collapse-level: 1
+      contents:
+        - section: "WRF Model"
+          contents:
+            - href: praktikum-1.qmd
+              text: Overview
+        # - section: "Computing"
+        #   contents:
+        #     - href: computing-access.qmd
+        #       text: Access
+        #     - href: computing-troubleshooting.qmd
+        #       text: Troubleshooting
+        # - section: "Project"
+        #   contents:
+        #     - href: project-description.qmd
+        #       text: Description
+        #     - href: project-tips-resources.qmd
+        #       text: Tips + resources
+        # - section: "Notebooks"
+        #   contents:
+        #     - href: supplemental/slr-derivations.qmd
+        #       text: SLR derivations
+        #     - href: supplemental/model-diagnostics-matrix.qmd
+        #       text: Model diagnostics
+        #     - href: supplemental/mlr-matrix.qmd
+        #       text: MLR matrix notation
+        #     - href: supplemental/log-transformations.qmd
+        #       text: Log transformations
+        #     - href: supplemental/model-selection-criteria.qmd
+        #       text: Model selection criteria
+execute: 
+  eval: false
+  enabled: false
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    highlight-style: mokokai
+
+bibliography: references.bib
+crossref:
+  chapters: true
+  fig-prefix: Gambar # (default is "Figure")
+  fig-title: Gambar
+  tbl-prefix: Tabel # (default is "Table")
+  tbl-title: Tabel
+  eq-prefix: Persamaan
+  eq-title: Persamaan
+csl: ipb.csl

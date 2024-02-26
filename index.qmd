@@ -1,0 +1,5 @@
+---
+title: "Pemodelan Iklim"
+---
+
+Pemodelan iklim adalah proses matematis yang digunakan untuk memprediksi perubahan iklim di masa depan. Pemodelan iklim melibatkan penggunaan data iklim historis dan teori fisika untuk memprediksi bagaimana iklim akan berubah di masa depan. Pemodelan iklim sangat penting karena dapat membantu kita memahami bagaimana perubahan iklim akan mempengaruhi kehidupan di Bumi.
